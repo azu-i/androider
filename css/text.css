@@ -1,0 +1,143 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 575px;
+	margin: 0 auto;
+}
+
+.magazine_name{
+	position: relative;
+	border-bottom: 10px solid #23251B;
+}
+
+.magazine_name_contents{
+	color: #B7DA24;
+	font-size: 17px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.magazine_name_english{
+	padding-left: 22px;
+	font-size: 95px;
+	font-family: 'Commissioner', sans-serif;
+	line-height: 122%;
+	position: relative;
+	width: auto;
+}
+
+.magazine_name_english_voltaire{
+	font-family: 'Voltaire', sans-serif;
+	font-size: 120px;
+}
+
+.magazine_name_english_redletter{
+	position: absolute;
+	top: -17px;
+	color: #fff;
+	text-shadow: 2px 2px 1px #EB3430,
+	             -2px 2px 1px #EB3430,
+	             2px -2px 1px #EB3430,
+	             -2px -2px 1px #EB3430;
+}
+
+.magazine_name_english_plus{
+	position: absolute;
+	top: -17px;
+	right: 40px;
+	font-size: 125px;
+}
+
+.magazine_name_english_plus:after{
+	content: "";
+	width: 115px;
+	height:30px;
+	background: url("../img/androider.png") no-repeat;
+	background-size:contain;
+	position: absolute;
+	bottom: 0;
+	left: -15px;
+}
+
+.magazine_name_japanese{
+	font-size: 10px;
+	position: absolute;
+	top: 55px;
+	left: 65px;
+}
+
+.magazine_cover{
+	background-color: #B8DB1F;
+	position: relative;
+}
+
+.monthly_box{
+	width: 190px;
+	background-color: #B8DB1F;
+	border-top: 10px solid #23251B;
+	position: absolute;
+	right: 0;
+	top: -25px;
+}
+
+.monthly{
+	color: #fff;
+	font-family: 'Alumni Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	line-height: 355%;
+}
+
+.monthly_year{
+	font-size: 18px;
+	position: absolute;
+	top: -6px;
+	right: 18px;
+}
+
+.monthly_month{
+	padding-right: 10px;
+	font-size: 20px;
+	text-shadow: 1px 2px 3px #808080;
+	text-align: right;
+}
+
+.monthly_month_number{
+	font-size: 80px;
+	vertical-align: sub;
+}
+
+.triangle-black{
+	width: 0;
+	height: 0;
+	border-left: 16px solid transparent;
+	border-right: 16px solid transparent;
+	border-bottom: 16px solid #23251B;
+	position: absolute;
+	top: -1px;
+	left: -21px;
+	transform: rotate(135deg);
+
+}
+
+.triangle-green{
+	width: 0;
+	height: 0;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-bottom: 14px solid #B8DB1F;
+	position: absolute;
+	top: 7px;
+	left: -18px;
+	transform: rotate(135deg);
+}
+
+
+
+
+
+
+
