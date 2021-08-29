@@ -137,10 +137,14 @@ body{
 
 .smartphone_parcentage{
 	padding: 45px 0 55px 35px;
+	background: url(../img/speechbaloon.png) no-repeat -4px -2px;
+    background-size: 240px 200px;
 	font-size: 55px;
 	font-weight: bold;
 	line-height: 100%;
 	letter-spacing: -0.1em;
+	position: relative;
+    z-index: 4;
 }
 
 .smartphone_parcentage_number{
@@ -261,6 +265,39 @@ body{
 	text-align: center;
 }
 
+.specialApplication{
+	margin-left: 15px;
+}
+
+.specialApplicationSubTitle{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.specialApplicationSubTitle span{
+	font-size: 20px;
+}
+
+.specialApplicationMainTitle{
+	width: 280px;
+	height: 65px;
+	font-family: serif;
+	font-size: 30px;
+	font-weight: bold;
+	background: url(../img/tag.jpeg) no-repeat;
+	background-size: 280px 65px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	text-shadow: 2px 2px 1px #fff,
+	             -2px 2px 1px #fff,
+	             2px -2px 1px #fff,
+	             -2px -2px 1px #fff;
+}
+
+.specialApplicationMainTitle span{
+	color: #EB3430;
+}
 
 
 
